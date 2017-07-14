@@ -21,7 +21,7 @@ fi
 
 
 #ディレクトリの選定、作成
-MKDIR="./memo"
+MKDIR="../memo"
 if [ "$1" == "-d" ]; then
   MKDIR="${MKDIR}/$2"
 fi
